@@ -1,0 +1,15 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name:  spring-cloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/752636374/config.git
+          username: 752636374@qq.com
+          password: yhxyz1838041
+          default-label: main
+
